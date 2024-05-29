@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellidos": "Hernandez",
+      "email": "admin@prueba.com",
+      "password": "admin",
+      "birthdate": "1970-01-01",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "nombre": "Miguel",
+      "apellidos": "Saez",
+      "email": "usuario@prueba.com",
+      "password": "usuario",
+      "birthdate": "1985-01-01",
+      "role": "user"
+    }
+  ],
+  "stations": [
+    {
+      "id": 1,
+      "nombre": "Puerto de Mazarron",
+      "codigoPostal": "30860",
+      "capacidad": 5
+    },
+    {
+      "id": 2,
+      "nombre": "Mazarron",
+      "codigoPostal": "30870",
+      "capacidad": 10
+    },
+    {
+      "id": 3,
+      "nombre": "Murcia",
+      "codigoPostal": "30000",
+      "capacidad": 20
+    }
+  ],
+  "bicycles": [
+    {
+      "id": 1,
+      "marca": "Giant",
+      "modelo": "Escape 3",
+      "estado": "disponible",
+      "stationId": 1
+    },
+    {
+      "id": 2,
+      "marca": "Trek",
+      "modelo": "FX 2",
+      "estado": "disponible",
+      "stationId": 1
+    },
+    {
+      "id": 3,
+      "marca": "Specialized",
+      "modelo": "Sirrus",
+      "estado": "disponible",
+      "stationId": 2
+    },
+    {
+      "id": 4,
+      "marca": "Cannondale",
+      "modelo": "Quick 4",
+      "estado": "disponible",
+      "stationId": 2
+    },
+    {
+      "id": 5,
+      "marca": "Bianchi",
+      "modelo": "Via Nirone 7",
+      "estado": "disponible",
+      "stationId": 3
+    },
+    {
+      "id": 6,
+      "marca": "Scott",
+      "modelo": "Sub Cross 20",
+      "estado": "disponible",
+      "stationId": 3
+    },
+    {
+      "id": 7,
+      "marca": "Orbea",
+      "modelo": "MX 50",
+      "estado": "disponible",
+      "stationId": 1
+    },
+    {
+      "id": 8,
+      "marca": "Merida",
+      "modelo": "Crossway 300",
+      "estado": "disponible",
+      "stationId": 1
+    }
+  ]
+}

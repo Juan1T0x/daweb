@@ -1,0 +1,57 @@
+/* src/css/styles.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Centrar los elementos de la barra de navegación */
+.navbar-nav {
+  width: 100%;
+  justify-content: center;
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+/* Media Queries para tablets */
+@media (min-width: 601px) and (max-width: 992px) {
+  .navbar {
+    flex-direction: row;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-item {
+    width: auto;
+  }
+
+  .nav-link {
+    text-align: left;
+    padding: 10px 15px;
+  }
+}
