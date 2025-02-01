@@ -1,4 +1,2 @@
 # daweb-pr
-Repositorio privado de las prácticas de la asignatura DAWEB
-
-Cambio
+Repositorio de las prácticas de la asignatura DAWEB
